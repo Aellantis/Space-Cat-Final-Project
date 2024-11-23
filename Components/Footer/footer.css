@@ -1,0 +1,47 @@
+footer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer .row {
+  margin-left: 7rem;
+  margin-right: 0; 
+}
+
+footer .d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .d-flex img {
+  margin-left: 0.5rem; 
+}
+
+footer .d-flex.flex-column {
+  align-items: flex-end;
+}
+
+footer .d-flex.flex-column p {
+  margin-top: 5px; 
+}
+
+.text-white#space-cat-text {
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#copyright {
+  font-size: 11px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#links {
+  font-size: smaller;
+}
+h5 {
+  font-size: large;
+  font-weight: 600;
+}
+
+li{
+  margin-left: 0.5rem;
+}
