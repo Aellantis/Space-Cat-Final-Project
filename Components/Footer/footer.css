@@ -37,6 +37,10 @@ footer .d-flex.flex-column p {
 #links {
   font-size: smaller;
 }
+#links:hover {
+  background-color: blueviolet;
+}
+
 h5 {
   font-size: large;
   font-weight: 600;
