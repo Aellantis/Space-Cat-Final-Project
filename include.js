@@ -5,7 +5,8 @@ function includeHTML(file, elementId) {
       document.getElementById(elementId).innerHTML = data;
     });
 }
+
 window.onload = () => {
-  includeHTML('./Components/Navbar/navbar.html', 'navbar');
-  includeHTML('./Components/Footer/footer.html', 'footer');
+  includeHTML('/Components/Navbar/navbar.html', 'navbar');
+  includeHTML('/Components/Footer/footer.html', 'footer');
 };
