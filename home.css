@@ -13,10 +13,18 @@
 }
 
 .custom-nav-link:hover {
-  background: linear-gradient(to right, rgb(255, 172, 184), rgb(153, 177, 255), rgb(255, 91, 255));
+  background: linear-gradient(to right, rgb(255, 69, 97), rgb(75, 115, 248), rgb(252, 58, 252));
   background-clip:text;
   -webkit-background-clip: text; 
   color: transparent; 
+}
+
+.custom-nav-link.active {     
+  background: linear-gradient(to right, rgb(255, 69, 97), rgb(75, 115, 248), rgb(252, 58, 252));
+  background-clip:text;
+  -webkit-background-clip: text; 
+  color: transparent; 
+  border-color: #c7e3ff;           /* Active tab border color */
 }
 
 .category {
@@ -44,4 +52,9 @@
   background-clip:text;
   -webkit-background-clip: text; 
   color: transparent; 
+}
+
+#search-btn {
+  width: 500%;
+  margin-left: 1rem;
 }
