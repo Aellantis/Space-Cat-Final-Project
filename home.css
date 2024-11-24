@@ -1,0 +1,47 @@
+.custom-nav-link {
+  background: transparent;        
+  color: black;                   
+  margin: 0;                       
+  padding: 10px 20px;              
+  border: 2px solid rgb(243, 243, 243);  
+  border-radius: 1rem;            
+}
+.custom-nav-item {
+  margin: 0;                  
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;                 
+}
+
+.custom-nav-link:hover {
+  background: linear-gradient(to right, rgb(255, 172, 184), rgb(153, 177, 255), rgb(255, 91, 255));
+  background-clip:text;
+  -webkit-background-clip: text; 
+  color: transparent; 
+}
+
+.category {
+  background-color: rgb(143, 191, 255);
+  padding: 0.5rem;
+  border-radius: 6rem;
+  font-size: smaller;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-check,label, .text-decoration-none{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box {
+  margin-top: 4rem;;
+}
+
+.custom-btn {
+  background: linear-gradient(to left, rgb(124, 34, 162), rgb(89, 128, 255));
+  border-radius: 1rem;
+}
+
+.modal-title{
+  background: linear-gradient(to left, rgb(124, 34, 162), rgb(89, 128, 255));
+  background-clip:text;
+  -webkit-background-clip: text; 
+  color: transparent; 
+}

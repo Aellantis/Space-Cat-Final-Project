@@ -30,8 +30,11 @@ button {
   background-color: black;
 }
 
-button:hover {
-  color:rgb(243, 205, 255)
+.icon-btn:hover {
+  background: linear-gradient(to right, rgb(255, 172, 184), rgb(153, 177, 255), rgb(255, 91, 255));
+  background-clip:text;
+  -webkit-background-clip: text; 
+  color: transparent; 
 }
 
 .navbar-brand {

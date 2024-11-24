@@ -41,11 +41,11 @@ footer .d-flex.flex-column p {
   background: linear-gradient(to right, rgb(213, 143, 153), rgb(116, 134, 194), rgb(186, 65, 186));
 }
 
-h5 {
+.faq-title {
   font-size: large;
   font-weight: 600;
 }
-h5:hover {
+.faq-title:hover {
   background: linear-gradient(to right, rgb(255, 172, 184), rgb(153, 177, 255), rgb(255, 91, 255));
   background-clip:text;
   -webkit-background-clip: text; 
