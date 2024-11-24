@@ -24,7 +24,7 @@
   background-clip:text;
   -webkit-background-clip: text; 
   color: transparent; 
-  border-color: #c7e3ff;           /* Active tab border color */
+  border-color: #c7e3ff;           
 }
 
 .category {
@@ -37,9 +37,6 @@
 
 .form-check,label, .text-decoration-none{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.box {
-  margin-top: 2rem;;
 }
 
 .custom-btn {
@@ -58,3 +55,18 @@
   width: 500%;
   margin-left: 1rem;
 }
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  transition: background-color 0.3s ease, opacity 0.3s ease; 
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  #navbar.scrolled {
+    opacity: 87%; 
+    background-color: rgba(0, 0, 0, 0.9); 
+  }
+  
