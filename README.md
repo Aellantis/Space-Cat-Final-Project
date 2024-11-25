@@ -7,4 +7,4 @@
 - Nick Nguyen 
 
 ## Languages/Tech Used
-- HTML, CSS, Bootstrap, and Flask
+- HTML, CSS, Bootstrap, and Javascript
