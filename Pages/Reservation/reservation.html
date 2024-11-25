@@ -1,72 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reservation Page</title>
-  
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-  <!-- Remix Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
-  
-  <!-- CSS -->
-  <link rel="stylesheet" href="reservation.css">
-  <link rel="stylesheet" href="./../../Components/Navbar/navbar.css">
-  <link rel="stylesheet" href="./../../Components/Footer/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation Page</title>
 
-</head>
-<body>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="reservation.css" />
+    <link rel="stylesheet" href="./../../Components/Navbar/navbar.css" />
+    <link rel="stylesheet" href="./../../Components/Footer/footer.css" />
+  </head>
+  <body>
     <div id="navbar"></div>
     <main>
-      <h1>Welcome to the Reservation Page</h1>
-      <p>Nick's page to insert things</p>
+      <section class="title">
+        <h1>Choose Flights</h1>
+        <h2>Earth to Keplar-186Feline</h2>
+        <h4>Monday November 25th, 2024</h4>
+      </section>
+
+      <section class="dates-carousel-container">
+        <div class="date-item">
+          Monday, Nov 25
+          <p>$2,300</p>
+        </div>
+        <div class="date-item">
+          Tues, Nov 26
+          <p>$2,400</p>
+        </div>
+        <div class="date-item">
+          Weds, Nov 27
+          <p>$2,500</p>
+        </div>
+        <div class="date-item">
+          Thurs, Nov 28
+          <p>$2,600</p>
+        </div>
+        <div class="date-item">
+          Fri, Nov 29
+          <p>$2,700</p>
+        </div>
+        <div class="date-item">
+          Sat, Nov 30
+          <p>$2,800</p>
+        </div>
+        <div class="date-item">
+          Sun, Dec 1
+          <p>$2,900</p>
+        </div>
+      </section>
+
+      <section class="filters">
+        <div class="filter-container">
+          <h6>Filter By:</h6>
+          <div class="filter-container-item">Stops</div>
+          <div class="filter-container-item">Airlines</div>
+        </div>
+        <div class="filter-card-container">
+          <div class="time-container">
+            <div class="filter-card-container-item">
+              <h6>Depart</h6>
+              <div class="arrow-btn"><></div>
+            </div>
+            <div class="filter-card-container-item">
+              <h6>Arrive</h6>
+              <div class="arrow-btn"><></div>
+            </div>
+            <div class="filter-card-container-item">
+              <h6>Duration</h6>
+              <div class="arrow-btn"><></div>
+            </div>
+          </div>
+          <div class="flight-class-container">
+            <div class="filter-card-container-item">
+              <h6>Main</h6>
+              <div class="arrow-btn"><></div>
+            </div>
+            <div class="filter-card-container-item">
+              <h6>Premium Economy</h6>
+              <div class="arrow-btn"><></div>
+            </div>
+            <div class="filter-card-container-item">
+              <h6>Flagship Business</h6>
+              <div class="arrow-btn"><></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-container">
+        <div class="card">
+          <div class="card-info-head">
+            <h6>Round Trip</h6>
+            <h3>Main</h3>
+            <h4>$2,000 per person</h4>
+          </div>
+          <div class="card-info-body">
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>1 Free Checkout Bag</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Choose Cabinet Seat</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Pay for Extra Legroom</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Ability to board in Groups of 6-8</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>General Changes Allowed</p>
+            </div>
+          </div>
+          <div class="card-info-refunds">
+            <h6>Refund for credit</h6>
+            <h6>Refund for cash</h6>
+          </div>
+          <div class="select-btn">Select</div>
+        </div>
+        <div class="card">
+          <div class="card-info-head">
+            <h6>Round Trip</h6>
+            <h3>Main</h3>
+            <h4>$2,000 per person</h4>
+          </div>
+          <div class="card-info-body">
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>1 Free Checkout Bag</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Ability to pick a wider seat with legroom</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Priority Access (Max Group of 4)</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Free Changes Allowed</p>
+            </div>
+          </div>
+          <div class="card-info-refunds">
+            <h6>Refund for credit</h6>
+            <h6>Refund for cash</h6>
+          </div>
+          <div class="select-btn">Select</div>
+        </div>
+        <div class="card">
+          <div class="card-info-head">
+            <h6>Round Trip</h6>
+            <h3>Main</h3>
+            <h4>$2,000 per person</h4>
+          </div>
+          <div class="card-info-body">
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>2 Free Checkout Bag</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Choose any seat</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Priority Checkout and Boarding (Max Group of 2)</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Flagship Lounge and Clubs access</p>
+            </div>
+            <div class="card-info-body-item">
+              <i class="ri-check-fill"></i>
+              <p>Free changes allowed</p>
+            </div>
+          </div>
+          <div class="card-info-refunds">
+            <h6>Refund for credit</h6>
+            <h6>Refund for cash</h6>
+          </div>
+          <div class="select-btn">Select</div>
+        </div>
+        <div class="card-info-footer">
+          <p>text</p>
+        </div>
+      </section>
     </main>
     <div id="footer"></div>
 
-<!--Modals for Cart and Search DO NOT TOUCH-->
+    <!--Modals for Cart and Search DO NOT TOUCH-->
     <!-- Modal for Search -->
-<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="searchModalLabel">Search Feature</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        This feature has not been added yet for search. (ᵕ—ᴗ—) Please explore the rest of the website tho. ( ੭ ･ᴗ･ )੭
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="custom-btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="searchModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="searchModalLabel">Search Feature</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            This feature has not been added yet for search. (ᵕ—ᴗ—) Please
+            explore the rest of the website tho. ( ੭ ･ᴗ･ )੭
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="custom-btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- Modal for Cart -->
-<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="cartModalLabel">Cart Feature</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        This feature has not been added yet for cart. (ᵕ—ᴗ—) Please explore the rest of the website tho. ( ੭ ･ᴗ･ )੭
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="custom-btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <!-- Modal for Cart -->
+    <div
+      class="modal fade"
+      id="cartModal"
+      tabindex="-1"
+      aria-labelledby="cartModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel">Cart Feature</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            This feature has not been added yet for cart. (ᵕ—ᴗ—) Please explore
+            the rest of the website tho. ( ੭ ･ᴗ･ )੭
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="custom-btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- It wont work within navbar.html because it interferes with the sticky nav bar.So it has to be copy pasted into each page.-->
+    <!-- It wont work within navbar.html because it interferes with the sticky nav bar.So it has to be copy pasted into each page.-->
 
     <!-- JS for Navbar/Footer -->
     <script src="./../../include.js"></script>
     <!-- Bootstrap JS (with Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
+  </body>
 </html>
