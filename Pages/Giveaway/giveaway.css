@@ -1,0 +1,12 @@
+.custom-btn {
+  background: linear-gradient(to left, rgb(124, 34, 162), rgb(89, 128, 255));
+  border-radius: 1rem;
+}
+
+.modal-title{
+  background: linear-gradient(to left, rgb(124, 34, 162), rgb(89, 128, 255));
+  background-clip:text;
+  -webkit-background-clip: text; 
+  color: transparent; 
+  cursor:default;
+}

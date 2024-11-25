@@ -16,7 +16,7 @@
 }
 
 .nav-link:hover {
-  background: linear-gradient(to right, rgb(255, 172, 184), rgb(153, 177, 255), rgb(255, 91, 255));
+  background: linear-gradient(to left, rgb(168, 86, 255), rgb(87, 191, 255), rgb(114, 145, 255));
   background-clip:text;
   -webkit-background-clip: text; 
   color: transparent; 
@@ -32,7 +32,7 @@ button {
 }
 
 .icon-btn:hover {
-  background: linear-gradient(to right, rgb(255, 172, 184), rgb(153, 177, 255), rgb(255, 91, 255));
+  background: linear-gradient(to left, rgb(168, 86, 255), rgb(87, 191, 255), rgb(114, 145, 255));
   background-clip:text;
   -webkit-background-clip: text; 
   color: transparent; 
