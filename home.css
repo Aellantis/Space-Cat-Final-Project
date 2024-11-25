@@ -53,13 +53,17 @@
 }
 
 #search-btn {
-  width: 500%;
+  width: 33vw; /* Button width as 40% of viewport width */
+  min-width: 200px; /* Ensures it doesn't get too small */
+  max-width: 600px; /* Prevents it from getting too large */
   margin-left: 1rem;
   background-color: #007bff; 
   color: #ffffff;
   border: 1px solid #007bff; 
   border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
 }
+
 #search-btn:hover {
   background: linear-gradient(to left, rgb(113, 31, 200), rgb(64, 182, 255), rgb(41, 78, 212));
   color: white; 
@@ -178,4 +182,7 @@ strong:hover {
   -webkit-background-clip: text; 
   color: transparent; 
   cursor:default;
+}
+#link-texts {
+  font-size: small;
 }
