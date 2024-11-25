@@ -52,3 +52,7 @@ img {
 .navbar {
   background: black;
 }
+.navbar-toggler-icon {
+  background-color: aliceblue;
+  border-radius: 0.2rem;
+}
