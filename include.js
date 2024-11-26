@@ -24,6 +24,6 @@ function initializeNavbarScrollEffect() {
 }
 
 window.onload = () => {
-  includeHTML('/Components/Navbar/navbar.html', 'navbar');
-  includeHTML('/Components/Footer/footer.html', 'footer');
+  includeHTML('./Components/Navbar/navbar.html', 'navbar');
+  includeHTML('./Components/Footer/footer.html', 'footer');
 };
