@@ -56,3 +56,16 @@ img {
   background-color: aliceblue;
   border-radius: 0.2rem;
 }
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  transition: background-color 0.3s ease, opacity 0.3s ease; 
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+#navbar.scrolled {
+    opacity: 87%; 
+    background-color: rgba(0, 0, 0, 0.9); 
+}

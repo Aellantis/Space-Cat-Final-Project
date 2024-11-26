@@ -10,3 +10,13 @@
   color: transparent; 
   cursor:default;
 }
+
+/* Make the image bigger */
+.centered-image {
+  display: block; /* Ensure the image behaves like a block element */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  width: 100%; /* Set a percentage width for responsiveness */
+  max-width: 65rem; /* Max width to prevent it from growing too large */
+  height: 60rem; /* Maintain aspect ratio */
+}
