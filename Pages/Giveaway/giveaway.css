@@ -10,3 +10,106 @@
   color: transparent; 
   cursor:default;
 }
+
+.header-section {
+background: url('./../../Components/Photos/space-bg.jpg') no-repeat center center/cover;
+opacity: 80%;
+color: white;
+text-align: center;
+padding: 80px 20px;
+border-radius: 3rem;
+margin-top: 0.1rem;
+margin-left: 5rem;
+width: 90%;
+height: 30rem;
+}
+
+.header-background {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  opacity: 0.8;
+  max-width: 60rem;
+  border-radius: 1rem;
+  margin-left: 15rem;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  padding: 1rem; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-background h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.header-background p {
+  color: rgb(0, 0, 0); 
+}
+
+.form-section {
+background-color: #222;
+max-width: 72rem;
+color: white;
+padding: 2rem 2rem 0.5rem 2rem;
+border-radius: 3rem;
+margin-top: 0.1rem;
+margin-bottom: 0.5rem;
+margin-left: 10rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-section h2 {
+text-align: center;
+margin-bottom: 2rem;
+font-size: x-large;
+font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"] {
+width: 80%;
+padding: 0.5rem;
+font-size: 1rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-left: 3rem;
+}
+
+.note {
+font-size: 0.8rem;
+color: #aaa;
+margin-top: 2rem;
+margin-left: 16rem;
+max-width: 60rem;
+text-align: center;
+font-size: 10px;
+}
+
+#planet {
+  width: 39%;
+  margin-left: 3.5rem;
+  margin-bottom: 2rem;
+}
+.form-label, .form-check {
+  margin-left: 3rem;
+}
+.submit-button {
+  margin-left: 7rem;
+  border-radius: 0.5rem;
+  background-color: rgb(2, 137, 255);
+  width: 100vh;
+  margin-bottom: 2rem;
+  max-width: 27rem;
+}
+.submit-button:hover {
+  background: linear-gradient(to left, rgb(124, 34, 162), rgb(89, 128, 255));
+}
+#checkbox1, #checkbox2{
+  font-size: medium;
+}
+label {
+  font-size: smaller;
+  max-width: 69rem;
+}

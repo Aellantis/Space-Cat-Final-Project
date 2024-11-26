@@ -18,12 +18,135 @@
 
 </head>
 <body>
+  <main>
     <div id="navbar"></div>
-    <main>
-      <h1>Welcome to the Giveaway Page</h1>
-      <p>Ashley's page to insert things later</p>
+      <body class="bg-light">
+        <div class="container">
+          <!-- Header Section -->
+          <div class="header-section">
+            <div class="header-background col-md-7">
+              <h1>Kepler-22b Family Giveaway</h1>
+              <p>
+                Embark on the family adventure of a lifetime with a trip to Kepler-22b—a distant exoplanet filled with mysteries waiting to be uncovered. This once-in-a-lifetime prize includes interstellar roundtrip travel, luxury accommodations aboard the Starbound Voyager, breathtaking planetary explorations, and a galaxy of unforgettable experiences for the whole family!
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      
+          <!-- Form Section -->
+          <div class="form-section">
+            <h2 class="text-center">To enter, please provide the following information:</h2>
+            <form id="myForm" onsubmit="showThankYouModal(event)">
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="first-name" class="form-label">First Name*</label>
+                  <input type="text" class="form-control" id="first-name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="last-name" class="form-label">Last Name*</label>
+                  <input type="text" class="form-control" id="last-name" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address*</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="confirm-email" class="form-label">Confirm Email Address*</label>
+                  <input type="email" class="form-control" id="confirm-email" required>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="state" class="form-label">State</label>
+                  <input type="text" class="form-control" id="state">
+                </div>
+                <div class="col-md-6">
+                  <label for="postal-code" class="form-label">Postal Code</label>
+                  <input type="text" class="form-control" id="postal-code">
+                </div>
+              </div>
+              <div class="row mb-3 align-items-end">
+                <label for="planet" class="form-label">Planet</label>
+                <input type="text" class="form-control" id="planet">
+                <div class="col-md-1">
+                  <button type="submit" class="submit-button">Submit</button>
+                </div>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="checkbox1" required>
+                <label class="form-check-label" for="checkbox1">
+                  By checking this box, I confirm that I am at least 3 cat years (approximately 21 human years) or older and understand that, if chosen as a potential winner, I will be required to provide my date of birth (or my adoption/rescue date) and proof of my impeccable feline age.
+                </label>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="checkbox2" required>
+                <label class="form-check-label" for="checkbox2">
+                  I agree to the Official Rules and the Terms and Conditions.*
+                </label>
+              </div>
+              <p class="note col-md-7">
+                NO PURCHASE NECESSARY. Void where prohibited. Open to legal cats of 50 USD/C, 3 feline years or older at the time of entry. Ends 11:59:59 p.m. PT, 11/30/2024. Limit 1 entry per day per feline. Odds of winning depend on number of eligible entries received. See Official Rules for complete details.
+              </p>
+            </form>       
+          </div>
+        </div>
     </main>
+    <!-- Search Button Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title modal-title" id="searchModalLabel">Search</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="searchInput" class="form-label">Search the site</label>
+            <input type="text" class="form-control" id="searchInput" placeholder="Type something...">
+          </div>
+          <button type="submit" class="custom-btn btn w-100">Search</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Submit button Modal -->
+<div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="thankYouModalLabel">Thank You for Entering!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3>Thank You for Entering the Kepler-22b Family Giveaway!</h3>
+        <p>
+          Thank you for your entry to the Kepler-22b Family Giveaway! You've taken the first step toward an adventure of a lifetime, exploring the mysteries of the distant exoplanet, Kepler-22b. We’re excited to have you join us on this journey to the stars!
+        </p>
+        <p>
+          Keep an eye on your inbox for any updates, and don't forget to check back for future opportunities to win exciting prizes. Remember, every entry brings you closer to the chance of a galactic getaway with your loved ones aboard the Starbound Voyager.
+        </p>
+        <p>
+          Good luck, and may the stars be in your favor!
+        </p>
+        <p> (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ Imagine being able to enter giveaways to go to other planets? Tis be pree cool. Also don't worry about any info you 'submit'. I think it gets lost in the void somewhere. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="custom-btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     <div id="footer"></div>
+
 <!--Modals for Cart and Search DO NOT TOUCH-->
     <!-- Modal for Search -->
     <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
@@ -61,6 +184,17 @@
       </div>
     </div>
     <!-- It wont work within navbar.html because it interferes with the sticky nav bar.So it has to be copy pasted into each page.-->
+    
+    <!-- Script for Submit on Modal-->
+    <script>
+      function showThankYouModal(event) {
+        event.preventDefault();
+        document.getElementById('myForm').reset();
+        var myModal = new bootstrap.Modal(document.getElementById('thankYouModal'));
+        myModal.show();
+      }
+    </script>
+    
     
     <!-- JS for Navbar/Footer -->
     <script src="./../../include.js"></script>
