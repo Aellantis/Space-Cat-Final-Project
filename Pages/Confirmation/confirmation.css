@@ -11,12 +11,47 @@
   cursor:default;
 }
 
-/* Make the image bigger */
+
 .centered-image {
-  display: block; /* Ensure the image behaves like a block element */
-  margin-left: auto; /* Center horizontally */
-  margin-right: auto; /* Center horizontally */
-  width: 100%; /* Set a percentage width for responsiveness */
-  max-width: 65rem; /* Max width to prevent it from growing too large */
-  height: 60rem; /* Maintain aspect ratio */
+  display: block; 
+  margin-left: 11rem; 
+  margin-right: auto; 
+  width: 100%; 
+  max-width: 69rem; 
+  height: 65rem; 
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  border-radius: 1rem;
+}
+
+
+.image-container {
+  position: relative; 
+  width: 100%;
+  height: auto;
+}
+
+
+.text-box {
+  position: absolute; 
+  top: 50%; 
+  left: 51%; 
+  transform: translate(-50%, -50%); 
+  background-color: rgba(255, 255, 255, 0.7); 
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 65%;
+}
+
+.text-box h2 {
+  margin: 0;
+  font-size: x-large;
+  color: #333; 
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text-box h5, p {
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
