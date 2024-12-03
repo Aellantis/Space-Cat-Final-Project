@@ -1,72 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reservation Page</title>
-  
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-  <!-- Remix Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
-  
-  <!-- CSS -->
-  <link rel="stylesheet" href="reservation.css">
-  <link rel="stylesheet" href="./../../Components/Navbar/navbar.css">
-  <link rel="stylesheet" href="./../../Components/Footer/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation Page</title>
 
-</head>
-<body>
+    <!-- Bootstrap CSS -->
+    <link href="./../../Components/bootstrap.css" rel="stylesheet" />
+
+    <!-- Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="reservation.css" />
+    <link rel="stylesheet" href="./../../Components/Navbar/navbar.css" />
+    <link rel="stylesheet" href="./../../Components/Footer/footer.css" />
+  </head>
+  <body>
     <div id="navbar"></div>
     <main>
-      <h1>Welcome to the Reservation Page</h1>
-      <p>Nick's page to insert things</p>
+      <section class="title">
+        <div class="container">
+          <h1 class="mt-5">Choose Flights</h1>
+          <h2 class="mt-4">Earth to Keplar-186Feline</h2>
+          <h4>Monday November 25th, 2024</h4>
+        </div>
+      </section>
+
+      <section class="dates-carousel-container">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="date-item col-md-2">
+              Mon, Nov 25
+              <p>$2,300</p>
+            </div>
+            <div class="date-item col-md-2">
+              Tues, Nov 26
+              <p>$2,400</p>
+            </div>
+            <div class="date-item col-md-2">
+              Weds, Nov 27
+              <p>$2,500</p>
+            </div>
+            <div class="date-item col-md-2">
+              Thurs, Nov 28
+              <p>$2,600</p>
+            </div>
+            <div class="date-item col-md-2">
+              Fri, Nov 29
+              <p>$2,700</p>
+            </div>
+            <div class="date-item col-md-2">
+              Sat, Nov 30
+              <p>$2,800</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-container mt-5">
+        <div class="container mt-2">
+          <div class="row">
+            <div class="card col-md-4">
+              <div class="card-info-head">
+                <h6 class="small-header">Round Trip</h6>
+                <h3>Main</h3>
+                <h4>$2,000 per person</h4>
+                <hr />
+              </div>
+              <div class="card-info-body">
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">1 Free Checkout Bag</p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">Choose Cabinet Seat</p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">Pay for Extra Legroom</p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">
+                    Ability to board in Groups of 6-8
+                  </p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">General Changes Allowed</p>
+                </div>
+              </div>
+              <div class="card-info-refunds">
+                <label>
+                  <input type="radio" name="choice" /> Refund for credit
+                </label>
+                <label>
+                  <input type="radio" name="choice" /> Refund for cash
+                </label>
+              </div>
+              <div class="select-btn">Select</div>
+            </div>
+            <div class="card col-md-4">
+              <div class="card-info-head">
+                <h6 class="small-header">Round Trip</h6>
+                <h3>Economy</h3>
+                <h4>$4,000 per person</h4>
+                <hr />
+              </div>
+              <div class="card-info-body">
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">1 Free Checkout Bag</p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">
+                    Ability to pick a wider seat with legroom
+                  </p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">
+                    Priority Access (Max Group of 4)
+                  </p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">Free Changes Allowed</p>
+                </div>
+              </div>
+              <div class="card-info-refunds">
+                <label>
+                  <input type="radio" name="choice" /> Refund for credit
+                </label>
+                <label>
+                  <input type="radio" name="choice" /> Refund for cash
+                </label>
+              </div>
+              <div class="select-btn">Select</div>
+            </div>
+            <div class="card col-md-4">
+              <div class="card-info-head">
+                <h6 class="small-header">Round Trip</h6>
+                <h3>Premium Economy</h3>
+                <h4>$8,000 per person</h4>
+                <hr />
+              </div>
+              <div class="card-info-body">
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">2 Free Checkout Bag</p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">Choose any seat</p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">
+                    Priority Checkout and Boarding (Max Group of 2)
+                  </p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">
+                    Flagship Lounge and Clubs access
+                  </p>
+                </div>
+                <div class="card-info-body-item row">
+                  <i class="ri-check-fill col-md-1 offset-1"></i>
+                  <p class="col-md-8 offset-1">Free changes allowed</p>
+                </div>
+              </div>
+              <div class="card-info-refunds">
+                <label>
+                  <input type="radio" name="choice" /> Refund for credit
+                </label>
+                <label>
+                  <input type="radio" name="choice" /> Refund for cash
+                </label>
+              </div>
+              <div class="select-btn-container">
+                <div class="select-btn">Select</div>
+              </div>
+            </div>
+          </div>
+          <div class="card-info-footer mt-5 mb-5">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <div id="footer"></div>
 
-<!--Modals for Cart and Search DO NOT TOUCH-->
+    <!--Modals for Cart and Search DO NOT TOUCH-->
     <!-- Modal for Search -->
-<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="searchModalLabel">Search Feature</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        This feature has not been added yet for search. (ᵕ—ᴗ—) Please explore the rest of the website tho. ( ੭ ･ᴗ･ )੭
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="custom-btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <div
+      class="modal fade"
+      id="searchModal"
+      tabindex="-1"
+      aria-labelledby="searchModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="searchModalLabel">Search Feature</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            This feature has not been added yet for search. (ᵕ—ᴗ—) Please
+            explore the rest of the website tho. ( ੭ ･ᴗ･ )੭
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="custom-btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- Modal for Cart -->
-<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="cartModalLabel">Cart Feature</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        This feature has not been added yet for cart. (ᵕ—ᴗ—) Please explore the rest of the website tho. ( ੭ ･ᴗ･ )੭
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="custom-btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <!-- Modal for Cart -->
+    <div
+      class="modal fade"
+      id="cartModal"
+      tabindex="-1"
+      aria-labelledby="cartModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel">Cart Feature</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            This feature has not been added yet for cart. (ᵕ—ᴗ—) Please explore
+            the rest of the website tho. ( ੭ ･ᴗ･ )੭
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="custom-btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- It wont work within navbar.html because it interferes with the sticky nav bar.So it has to be copy pasted into each page.-->
+    <!-- It wont work within navbar.html because it interferes with the sticky nav bar.So it has to be copy pasted into each page.-->
 
     <!-- JS for Navbar/Footer -->
     <script src="./../../include.js"></script>
     <!-- Bootstrap JS (with Popper.js) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
+  </body>
 </html>

@@ -1,3 +1,14 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif, Arial;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-blue: rgb(90, 180, 250);
+}
 .custom-btn {
   background: linear-gradient(to left, rgb(124, 34, 162), rgb(89, 128, 255));
   border-radius: 1rem;
@@ -9,4 +20,80 @@
   -webkit-background-clip: text; 
   color: transparent; 
   cursor:default;
+}
+
+
+/* filters */
+.dates-carousel-container .container {
+  border: 2px solid lightgrey;
+  font-size: 16px;
+  font-weight: 550;
+  color: var(--light-blue);
+  text-align: center;
+  box-shadow: -2px 3px 3px 1px rgb(0, 0, 0, 0.6);
+}
+
+.date-item {
+  margin-top: 0.2rem;
+  margin-bottom: -0.8rem;
+}
+
+.filter-container-item {
+  text-align: center;
+  border-radius: 5px;
+  
+}
+
+.filter-text {
+ border: none; 
+ box-shadow: none;
+}
+
+.filter-card-container-item {
+  text-align: center;
+  border: 2px solid var(--light-blue);
+  border-radius: 5px;
+  box-shadow: -2px 3px 3px 1px rgb(0, 0, 0, 0.6);
+}
+
+.filter-card-container-item h6 {
+  margin-bottom: -0.01rem;
+  font-weight: 700;
+}
+
+
+/* cards */
+.small-header {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: gray;
+}
+
+.card-info-head h3 {
+  color: var(--light-blue);
+}
+
+.card-info-body {
+  height: 300px;
+}
+
+.card-info-refunds {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.select-btn-container {
+  height: 40px;
+}
+.select-btn {
+  background-color: var(--light-blue);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  padding: 3px 0;
+}
+
+.ri-check-fill {
+  color: green;
+  font-size: 30px;
 }
