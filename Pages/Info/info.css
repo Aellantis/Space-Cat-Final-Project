@@ -1,0 +1,64 @@
+:root {
+  --light-blue: rgb(90, 180, 250);
+  --dark-blue:  rgb(28, 126, 201);
+  --darker-blue: rgb(17, 78, 125);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif, Arial;
+    box-sizing: border-box;
+}
+
+.lb {
+    color: var(--light-blue)
+}
+.db {
+    color: var(--dark-blue);
+}
+
+.title .container p {
+    color: var(--darker-blue);
+    font-size: 18px;
+}
+
+.access-container-item {
+    box-sizing: border-box;
+    height: 250px;
+}
+
+/* cards */
+.card {
+    height: 350px;
+    border-radius: 20px;
+}
+
+.cat1 {
+    background-image: url('./../../Components/Photos/cat1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cat2 {
+    background-image: url('./../../Components/Photos/cat2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cat3 {
+    background-image: url('./../../Components/Photos/cat3.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cat4 {
+    background-image: url('./../../Components/Photos/logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
