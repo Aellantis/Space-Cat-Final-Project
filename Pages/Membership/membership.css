@@ -10,3 +10,47 @@
   color: transparent; 
   cursor:default;
 }
+
+:root {
+  --light-blue: rgb(90, 180, 250);
+  --dark-blue:  rgb(28, 126, 201);
+  --darker-blue: rgb(17, 78, 125);
+}
+
+.lb {
+  background-color: var(--light-blue);
+}
+.db {
+  background-color: var(--dark-blue);
+}
+.dkb {
+  background-color: var(--darker-blue);
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 18px;
+  margin: 15px;
+}
+ul li i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.card {
+    height: 600px;
+    border-radius: 20px;
+}
+
+.card h2, .card h3 {
+  text-align: center;
+}
+.card h3 {
+  margin-top: 50px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.text-container {
+  height: 550px
+}
