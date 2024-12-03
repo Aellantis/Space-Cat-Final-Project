@@ -6,10 +6,7 @@
     <title>Reservation Page</title>
 
     <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="./../../Components/bootstrap.css" rel="stylesheet" />
 
     <!-- Remix Icons -->
     <link
@@ -25,48 +22,56 @@
   <body>
     <div id="navbar"></div>
     <main>
-      <div class="container">
+      <div class="container mt-5">
         <div class="row">
           <div class="col-md-3 offset-1">
             <div class="title">
-              <h1>Meow Passes</h1>
-              <h2>Limited Time Rewards</h2>
-              <h4>Bonuses change annually</h4>
+              <h1 style="color: rgb(65, 149, 214)">Meow Passes</h1>
+              <h2 style="color: rgb(28, 92, 142)">Limited Time Rewards</h2>
+              <h4 style="color: rgb(16, 53, 81)">Bonuses change annually</h4>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card meow-pass-card">
-              <h2>Basic</h2>
-              <ul>
-                <li>Earned Points x2</li>
-                <li>15% Discounted Fares</li>
-                <li>Priority Tickets</li>
-              </ul>
+            <div class="card lb meow-pass-card">
+              <div class="text-container">
+                <h2>Basic</h2>
+                <ul>
+                  <li><i class="ri-check-line"></i>Earned Points x2</li>
+                  <li><i class="ri-check-line"></i>15% Discounted Fares</li>
+                  <li><i class="ri-check-line"></i>Priority Tickets</li>
+                </ul>
+              </div>
               <div class="pricing">
-                <h3>Starting at $1,000/year</h3>
+                <h3>Starting at $1,000/year*</h3>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card meow-pass-card">
-              <h2>Premium</h2>
-              <ul>
-                <li>Earned Points x2</li>
-                <li>35% Discounted Fares</li>
-                <li>Priority Tickets</li>
-                <li>Priority Seating</li>
-                <li>Private Lounge Access</li>
-                <li>No Cancellation Fee</li>
-                <li>Priority Promotional Deals</li>
-              </ul>
+            <div class="card db meow-pass-card">
+              <div class="text-container">
+                <h2>Premium</h2>
+                <ul>
+                  <li><i class="ri-check-line"></i>Earned Points x2</li>
+                  <li><i class="ri-check-line"></i>35% Discounted Fares</li>
+                  <li><i class="ri-check-line"></i>Priority Tickets</li>
+                  <li><i class="ri-check-line"></i>Priority Seating</li>
+                  <li><i class="ri-check-line"></i>Private Lounge Access</li>
+                  <li><i class="ri-check-line"></i>No Cancellation Fee</li>
+                  <li>
+                    <i class="ri-check-line"></i>Priority Promotional Deals
+                  </li>
+                </ul>
+              </div>
               <div class="pricing">
-                <h3>Starting at $3,500/year</h3>
+                <h3>Starting at $3,500/year*</h3>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <p>Nick's page to insert things</p>
+      <p class="mt-5" style="text-align: center">
+        Buy Now for a limited time deal of 0% off!
+      </p>
     </main>
     <div id="footer"></div>
     <!--Modals for Cart and Search DO NOT TOUCH-->
