@@ -31,8 +31,34 @@ body {
 /* cards */
 .card {
     height: 350px;
-    width: 600px;
-    display: flex;
-    justify-content: end;
-    text-align: end;
+    border-radius: 20px;
 }
+
+.cat1 {
+    background-image: url('./../../Components/Photos/cat1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cat2 {
+    background-image: url('./../../Components/Photos/cat2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cat3 {
+    background-image: url('./../../Components/Photos/cat3.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cat4 {
+    background-image: url('./../../Components/Photos/logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
