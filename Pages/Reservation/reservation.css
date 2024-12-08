@@ -92,6 +92,10 @@ body {
   font-weight: 500;
   padding: 3px 0;
 }
+.select-btn a {
+  text-decoration: none;
+  color: black;
+}
 
 .ri-check-fill {
   color: green;
