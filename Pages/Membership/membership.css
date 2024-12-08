@@ -26,25 +26,11 @@
 .dkb {
   background-color: var(--darker-blue);
 }
-
-ul li {
-  list-style-type: none;
-  font-size: 18px;
-  margin: 15px;
-}
-ul li i {
-  margin-right: 10px;
-  font-size: 24px;
-}
-
 .card {
     height: 600px;
     border-radius: 20px;
 }
 
-.card h2, .card h3 {
-  text-align: center;
-}
 .card h3 {
   margin-top: 50px;
   font-size: 12px;
@@ -53,4 +39,34 @@ ul li i {
 
 .text-container {
   height: 550px
+}
+
+.card-head-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.card-head-container h2 {
+  padding-left: 25%;
+  padding-top: 10%;
+  font-size: 50px;
+}
+.card-head-container img {
+  display: flex;
+  justify-content:end;
+  padding-left: 20%;
+  padding-top: 10%;
+  height: 180px;
+  width: 200px;
+}
+
+.card-body-container p {
+  padding-left: 7%;
+}
+.benefits {
+  padding-left: 7%;
+  padding-top: 5%;
+}
+.benefits i {
+  margin-right: 10px;
+  font-size: 30px;
 }
