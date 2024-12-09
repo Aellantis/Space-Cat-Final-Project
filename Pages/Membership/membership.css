@@ -31,7 +31,7 @@
   background-color: var(--darker-blue);
 }
 .card {
-    height: 600px;
+    height: 650px;
     border-radius: 20px;
 }
 
@@ -52,7 +52,7 @@
 .card-head-container h2 {
   padding-left: 25%;
   padding-top: 10%;
-  font-size: 50px;
+  font-size: 40px;
 }
 .card-head-container img {
   display: flex;
@@ -67,6 +67,7 @@
   padding-left: 7%;
 }
 .benefits {
+  
   padding-left: 7%;
   padding-top: 5%;
 }
@@ -84,4 +85,8 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
+}
+
+.pricing {
+  margin-top: 10px;
 }
