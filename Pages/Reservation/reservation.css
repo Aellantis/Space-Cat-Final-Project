@@ -22,7 +22,10 @@ body {
   cursor:default;
 }
 
-
+.main-container {
+  margin-left: 12%;
+  margin-right: 12%;
+}
 /* filters */
 .dates-carousel-container .container {
   border: 2px solid lightgrey;
@@ -68,11 +71,12 @@ body {
   font-size: 12px;
   color: gray;
 }
-
 .card-info-head h3 {
   color: var(--light-blue);
 }
-
+.card-info-head h4 {
+  font-size: 21px;
+}
 .card-info-body {
   height: 300px;
 }
@@ -92,9 +96,12 @@ body {
   font-weight: 500;
   padding: 3px 0;
 }
-.select-btn a {
+.select-btn{
   text-decoration: none;
   color: black;
+}
+a {
+  text-decoration: none;
 }
 
 .ri-check-fill {

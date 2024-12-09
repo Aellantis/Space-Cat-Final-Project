@@ -3,7 +3,10 @@
     --dark-blue:  rgb(28, 126, 201);
     --darker-blue: rgb(17, 78, 125);
   }
-  
+  .main-container {
+    margin-left: 12%;
+    margin-right: 12%;
+  }
   body {
       margin: 0;
       padding: 0;
